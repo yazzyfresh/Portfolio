@@ -19,7 +19,8 @@ section {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #ffb347;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -187,6 +188,7 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding-bottom: 20px;
 }
 
 .skill {

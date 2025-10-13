@@ -3,7 +3,7 @@ window.addEventListener("scroll", () => {
   const sections = document.querySelectorAll("section");
   const triggerBottom = window.innerHeight * 0.8;
 
-  sections.forEach(section => {
+  sections.forEach((section) => {
     const boxTop = section.getBoundingClientRect().top;
     if (boxTop < triggerBottom) {
       section.classList.add("visible");
@@ -33,8 +33,14 @@ window.addEventListener("load", () => {
   hero.classList.add("visible");
 });
 
-// --- Back to Top button functionality ---
+///// --- Back to Top button functionality ---
 const backToTop = document.getElementById("backToTop");
 backToTop.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+///////////////////////////////////////////////////////////
+// set current year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
