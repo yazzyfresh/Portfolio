@@ -34,8 +34,7 @@
         >
       </div>
       <div class="hero-img">
-        <!-- 🖼️ Replace with your image -->
-        <img src="https://via.placeholder.com/280" alt="Yazmin Ramirez" />
+        <img src="images/IMG_20251013_091556.jpg" alt="Yazmin Ramirez" />
       </div>
     </section>
 
@@ -77,8 +76,11 @@
             HTML, CSS, And minimal JavaScript
           </p>
         </div>
-        <div class="project-card">
-          <img src="https://via.placeholder.com/400x200" alt="Project 2" />
+        <!-- <div class="project-card">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="Project 2"
+          />
           <h3>JavaScript Game</h3>
           <p>
             A fun interactive browser game built using HTML, CSS, and vanilla
@@ -92,7 +94,7 @@
             A modern dashboard app showcasing React components and API
             integration.
           </p>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -101,12 +103,93 @@
       <h2>Contact</h2>
       <p>Let’s build something amazing together!</p>
       <div class="socials">
-        <a href="mailto:yazzy06ramirez@aol.com">📧 Email</a>
-        <a href="https://github.com/yazzyfresh">💻 GitHub</a>
-
+        <a href="mailto:yazzy06ramirez@aol.com">📧Email</a>
+        <a href="https://github.com/yazzyfresh">💻GitHub</a>
         <a href="https://www.linkedin.com/in/yazmin-ramirez-65310224a/"
-          >💻 Linkedin</a
+          >💻Linkedin</a
         >
+
+        <a href="tel:8133049182">📞Phone</a>
+      </div>
+    </section>
+
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first meal for free!</h2>
+            <p class="cta-text">
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the first
+              meal is on us!
+            </p>
+
+            <form class="cta-form" name="sign-up" netlify>
+              <div>
+                <label for="full-name"> Full Name </label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="site"> Site name </label>
+                <input
+                  id="site"
+                  type="text"
+                  placeholder="Website Name"
+                  name="site"
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Me@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="text">Whats your website for?</label>
+                <input
+                  id="email"
+                  type="text"
+                  placeholder=""
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="select-where">*What time range works for you?</label
+                ><select id="select-where" name="select">
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Mornings between 9AM - 11AM</option>
+                  <option value="friends">Afternoons between 12PM - 4PM</option>
+                  <option value="friends">Evenings between 5PM - 11PM</option>
+                </select>
+              </div>
+
+              <button class="btn btn--form">Sign up now</button>
+
+              <p>
+                *Please keep in mind meeting times are based on how much on an
+                idea you have for your site
+              </p>
+
+              <!-- 
+                <input type="number" /> -->
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 
