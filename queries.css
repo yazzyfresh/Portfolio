@@ -69,6 +69,10 @@ Insted, 1rem =1em =16px */
     font-size: 50%;
   }
 
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
@@ -221,6 +225,10 @@ Insted, 1rem =1em =16px */
   .address-col {
     grid-column: span 3;
   }
+
+  .projects {
+    grid-auto-flow: none;
+  }
 }
 
 /* *************************  */
@@ -274,10 +282,6 @@ Insted, 1rem =1em =16px */
 
   .cta {
     grid-template-columns: 1fr;
-  }
-
-  .cta-text-box {
-    padding: 2%;
   }
 
   .cta-img-box {
