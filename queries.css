@@ -68,9 +68,15 @@ Insted, 1rem =1em =16px */
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
-
   .projects {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
   }
 
   .hero {
@@ -268,16 +274,26 @@ Insted, 1rem =1em =16px */
     height: 1.2rem;
   }
 
-  .step-img-box:nth-child(2) {
-    grid-row: 1;
+  .projects {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+    padding-bottom: 1rem;
   }
 
-  .step-img-box:nth-child(6) {
-    grid-row: 5;
+  .project-card {
+    flex: 0 0 80%;
+    scroll-snap-align: start;
   }
 
-  .step-img-box {
-    transform: translateY(2.4rem);
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects::-webkit-scrollbar {
+    display: none;
   }
 
   .cta {
