@@ -240,6 +240,7 @@ Insted, 1rem =1em =16px */
 @media (max-width: 37em) {
   .grid {
     display: list-item;
+    grid-auto-flow: column;
   }
 
   .projects {
