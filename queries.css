@@ -247,6 +247,7 @@ Insted, 1rem =1em =16px */
   .projects {
     padding: 6.4rem 2.4rem;
     display: list-item;
+    grid-auto-flow: column;
   }
 
   .grid--2-cols,
