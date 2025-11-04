@@ -231,15 +231,13 @@ Insted, 1rem =1em =16px */
   .address-col {
     grid-column: span 3;
   }
-
 }
 
 /* *************************  */
 /* BELOW 544px ( Phones) */
 /* ************************* */
 
-@media (max-width: 34em) {
-
+@media (max-width: 37em) {
   .grid {
     display: list-item;
   }
