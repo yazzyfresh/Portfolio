@@ -270,6 +270,7 @@ nav ul li a:hover {
 
   display: flex;
   flex-wrap: wrap; 
+  flex-direction: column;
 }
 
 .project-card {
