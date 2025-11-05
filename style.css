@@ -267,6 +267,9 @@ nav ul li a:hover {
   gap: 30px;
 
   margin-top: 40px;
+/* 
+  display: flex;
+  flex-wrap: wrap; */
 }
 
 .project-card {
