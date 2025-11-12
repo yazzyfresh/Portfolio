@@ -90,7 +90,7 @@ a:hover {
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
-  color: #555;
+  color: #fffefe;
 }
 /* --- Navbar --- */
 nav {
@@ -274,7 +274,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-  background: #efebeb;
+  background: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   transition: 0.3s;
