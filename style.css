@@ -56,6 +56,58 @@ a:hover {
   display: none;
 }
 
+
+/* hamburger */
+#hamburger {
+  cursor: pointer;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  transition: transform 0.3s ease;
+}
+#hamburger span {
+  width: 24px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  display: block;
+}
+#hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+#hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+#hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+#mobileMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #7f0808;
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+#mobileMenu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+#mobileMenu :hover {
+  background-color: #be0c0c;
+}
+
+
+
 .btn,
 .btn:link,
 .btn:visited {
